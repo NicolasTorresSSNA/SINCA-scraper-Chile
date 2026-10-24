@@ -1,0 +1,13 @@
+{
+  "region": ["M"],
+  "comuna": ["El Bosque", "Quilicura"],
+  "parametros": {
+    "mp25": "horario",
+    "mp10": "diario",
+    "humedad": "horario",
+    "temperatura": "horario",
+    "viento": "horario"
+  },
+  "salida": "descargas_sinca",
+  "timeout": 90
+}
