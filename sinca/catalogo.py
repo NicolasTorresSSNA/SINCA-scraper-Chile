@@ -84,7 +84,7 @@ def normalizar(texto: str) -> str:
 
 def nueva_sesion() -> requests.Session:
     sesion = requests.Session()
-    sesion.headers["User-Agent"] = "sinca-scraper (investigacion; github.com/NicoAndresSSNA)"
+    sesion.headers["User-Agent"] = "sinca-scraper (investigacion; github.com/NicolasTorresSSNA)"
     reintentos = Retry(total=4, backoff_factor=1, status_forcelist=(429, 500, 502, 503, 504))
     sesion.mount("https://", HTTPAdapter(max_retries=reintentos))
     return sesion

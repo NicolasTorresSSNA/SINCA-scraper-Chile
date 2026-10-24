@@ -12,7 +12,7 @@ meteorológicas medidas en las mismas estaciones.
 Requiere Python 3.10+ y Google Chrome (el driver se descarga solo).
 
 ```bash
-git clone https://github.com/NicoAndresSSNA/SINCA-scraper-Chile.git
+git clone https://github.com/NicolasTorresSSNA/SINCA-scraper-Chile.git
 cd SINCA-scraper-Chile
 pip install -r requirements.txt
 ```
